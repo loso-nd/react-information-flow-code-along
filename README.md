@@ -28,7 +28,7 @@ random color every time you refresh the page, but the two smaller rectangles ins
 will always have a white background. Take a moment to familiarize yourself with the
 code base. We have a simple application that renders a single `Parent` component and
 two `Child` components. The component hierarchy is as followed:
-
+ 
 ```
 App
 └───Parent
