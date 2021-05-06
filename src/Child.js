@@ -11,7 +11,7 @@ class Child extends Component {
     return (
       <div onClick={ () => this.props.handleColorChange(getRandomColor())}
         className="child" 
-        style={{backgroundColor: this.props.color}}>
+        style={{backgroundColor: this.props.color}}> Color Change
       </div>
     )
   }
@@ -19,4 +19,4 @@ class Child extends Component {
 
 export default Child
 
-// Replaced style={{backgroundColor: "#FFF"}} color with this.props.color
+// Replaced style={{backgroundColor: "#FFF"}} color with this.props.color since the name of the props passed in to the <Child /> is `color={this.state.childrenColor}`
